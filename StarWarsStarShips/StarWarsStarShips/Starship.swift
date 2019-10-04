@@ -9,7 +9,7 @@
 import Foundation
 
 struct SearchResults: Decodable {
-    let starships: [Starship]
+    let results: [Starship]
 }
 
 struct Starship: Decodable {
